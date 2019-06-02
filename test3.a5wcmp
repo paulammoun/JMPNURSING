@@ -1,0 +1,2376 @@
+{
+    "$schema": "UX",
+    "$definition": {
+        "builderType": "Dialog2",
+        "info": {
+            "createdBy": "user",
+            "dateCreated": "2017-4-21",
+            "dateLastEdited": "2017-4-21"
+        },
+        "guid": "3aa790a7-dc87-41e1-bc64-28f95004ba9e",
+        "style_name": "Alpha",
+        "componentName": "test3",
+        "componentFilename": "C:\\alpha anywhere projects\\Nursing\\Nursing.WebProjects\\Default.WebProject\\test3.a5wcmp",
+        "page_fields": [
+            {
+                "controltype": "layout_directive_PanelNavigatorBegin",
+                "display": "{C=#51+111+61,White}{B=White,#51+111+61n}{F=+B}{Data=8f549c81-a1ca-4d4e-9575-39f79c54f3ad}{I:'$$web.panel.navigator'} [Panel Navigator: PANELNAVIGATOR_1] (TabBand) (LTR)",
+                "displayODFlat": "{Data=8f549c81-a1ca-4d4e-9575-39f79c54f3ad}{I:'$$web.panel.navigator'} [Panel Navigator: PANELNAVIGATOR_1]",
+                "displayOD": "{C=#51+111+61,White}{B=White,#51+111+61n}{F=+B}{Data=8f549c81-a1ca-4d4e-9575-39f79c54f3ad}{I:'$$web.panel.navigator'} [Panel Navigator: PANELNAVIGATOR_1]",
+                "displayODtree": "{C=#51+111+61,White}{B=White,#51+111+61n}{F=+B}{Data=8f549c81-a1ca-4d4e-9575-39f79c54f3ad}{I:'$$web.panel.navigator'} [Panel Navigator: PANELNAVIGATOR_1] (TabBand) (LTR)",
+                "idInternal": "8f549c81-a1ca-4d4e-9575-39f79c54f3ad",
+                "lastIndex": 14,
+                "parentContainer": -1,
+                "repeatingSectionParentId": -1,
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294936721",
+                "v": {
+                    "container": {
+                        "id": "PANELNAVIGATOR_1"
+                    },
+                    "panelInstance": {
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelNavigator": {
+                        "navigatorType": "TabBand",
+                        "navigatorFlow": "LTR",
+                        "animation": {
+                            "type": "slide",
+                            "duration": 400
+                        },
+                        "indicator": {
+                            "location": "Auto"
+                        },
+                        "tabBand": {
+                            "location": "Top"
+                        }
+                    }
+                }
+            },
+            {
+                "controltype": "layout_directive_PanelCardBegin",
+                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=df547f32-8bf2-4649-b1fc-266060370570}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]",
+                "displayODFlat": "{Data=df547f32-8bf2-4649-b1fc-266060370570}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]",
+                "displayOD": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=df547f32-8bf2-4649-b1fc-266060370570}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]",
+                "displayODtree": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=df547f32-8bf2-4649-b1fc-266060370570}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]",
+                "idInternal": "df547f32-8bf2-4649-b1fc-266060370570",
+                "lastIndex": 6,
+                "parentContainer": 1,
+                "repeatingSectionParentId": -1,
+                "indentTree": 1,
+                "v": {
+                    "container": {
+                        "id": "PANELCARD_1"
+                    },
+                    "panelInstance": {
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelCard": {
+                        "allowBodyScrolling": true,
+                        "bodyScrolling": {
+                            "axis": "Both"
+                        },
+                        "pull": {
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        },
+                        "scrolling": {
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "type": "Default"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294926945"
+            },
+            {
+                "controltype": "layout_directive_button",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=fed1ead2-a2c5-448c-81e0-db2961a54e88}{I:'$$control.button'} [Button] �",
+                "displayODFlat": "{Data=fed1ead2-a2c5-448c-81e0-db2961a54e88}{I:'$$control.button'} [Button]",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=fed1ead2-a2c5-448c-81e0-db2961a54e88}{I:'$$control.button'} [Button]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=fed1ead2-a2c5-448c-81e0-db2961a54e88}{I:'$$control.button'} [Button] �",
+                "idInternal": "fed1ead2-a2c5-448c-81e0-db2961a54e88",
+                "parentContainer": 2,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "repeatingSectionParentId": -1,
+                "indentTree": 2,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_1\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294912490",
+                "v": {
+                    "buttonText": "Button",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "BUTTON_1",
+                    "advancedButtonStyling": true,
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "advancedButton": {
+                        "subTheme": "",
+                        "buttonClass": "",
+                        "buttonClassDisabled": "",
+                        "buttonClassHover": "",
+                        "buttonClassPressed": "",
+                        "buttonInlineStyle": "",
+                        "buttonstyle": "Text only",
+                        "disabledImageName": "",
+                        "hoverImageName": "",
+                        "displayDropdownIconOnButton": false,
+                        "displayAsSplitButton": false,
+                        "hyperlinkClass": "[class.gridHyperlinkButton]",
+                        "hyperlinkImagePosition": "None",
+                        "hyperlinkInlineStyle": "",
+                        "imageClass": "",
+                        "imageInlineStyle": "",
+                        "imageName": "",
+                        "pressedImageName": "",
+                        "textClass": "",
+                        "textInlineStyle": "",
+                        "type": "Button"
+                    },
+                    "securityGroups": "",
+                    "showHideExpn": "",
+                    "clientSideconditionalStyle": "",
+                    "CalcExpression": "",
+                    "EnableExpression": "",
+                    "ShowExpression": "",
+                    "abstractJavascript": {
+                        "click": "{dialog.object}.panelSetActive('PANELCARD_2')"
+                    },
+                    "precalc": {
+                        "javascriptClientSideWatches": "",
+                        "javascriptAbstractSetupCode": "$e.add('{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_1',A5.d.evnts.click,function(e) {\n{dialog.object}.panelSetActive('PANELCARD_2')\n},this,false,'{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_1');\n",
+                        "javascriptAdvancedButton": "",
+                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['BUTTON_1'] = new A5.Button({\n\tlayout: 'text',\n\tstyle: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',\n\thtml: 'Button',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
+                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['BUTTON_1'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.BUTTON_1');"
+                    },
+                    "javascript": {
+                        "onclick": ""
+                    }
+                }
+            },
+            {
+                "controltype": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=6462ef3b-d6a2-4465-b288-a4d87323d1b4}{I:'$$control.text'} [panel1] �",
+                "displayODFlat": "{Data=6462ef3b-d6a2-4465-b288-a4d87323d1b4}{I:'$$control.text'} [panel1]",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=6462ef3b-d6a2-4465-b288-a4d87323d1b4}{I:'$$control.text'} [panel1]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=6462ef3b-d6a2-4465-b288-a4d87323d1b4}{I:'$$control.text'} [panel1] �",
+                "idInternal": "6462ef3b-d6a2-4465-b288-a4d87323d1b4",
+                "parentContainer": 2,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "repeatingSectionParentId": -1,
+                "indentTree": 2,
+                "v": {
+                    "controlType": "Label",
+                    "variableName": "panel1",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "textboxSubTheme": "",
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "panel1",
+                    "class": "<Default>",
+                    "breakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "Above",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "getFunction": "",
+                    "setFunction": "",
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        },
+                        "ink": {
+                            "hasbackgroundimage": false,
+                            "backgroundimage": "",
+                            "inkunits": 1
+                        }
+                    },
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.PANEL1\" for=\"{grid.componentname}.V.R{grid.rownumber}.PANEL1\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"display:block;\">panel1</label>\n<!--LblE-->\n\t<!--FldS--><span\tid=\"{grid.componentname}.V.R{grid.rownumber}.PANEL1\" class=\"[class.dialogLabel]\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;; display:inline-block\" title=\"\"    ></span>\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'PANEL1': {info: {controlType: 'Label'}, hiddenVal: false, type: 'label,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                },
+                "crc": "4294964518"
+            },
+            {
+                "controltype": "dialog_formcontrol",
+                "idInternal": "27134c9d_af42_42f8_972d_5c014f960021",
+                "displayODFlat": "{Data=27134c9d_af42_42f8_972d_5c014f960021}{I:'$$control.browse'} [LIST1]",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=27134c9d_af42_42f8_972d_5c014f960021}{I:'$$control.browse'} [LIST1]",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=27134c9d_af42_42f8_972d_5c014f960021}{I:'$$control.browse'} [LIST1]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=27134c9d_af42_42f8_972d_5c014f960021}{I:'$$control.browse'} [LIST1]",
+                "parentContainer": 2,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "repeatingSectionParentId": -1,
+                "indentTree": 2,
+                "v": {
+                    "controlType": "List",
+                    "variableName": "LIST1",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "textboxSubTheme": "",
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "LIST1",
+                    "class": "<Default>",
+                    "breakType": "none",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "Above",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "embeddedJavascriptControl": true,
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "getFunction": "",
+                    "setFunction": "",
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        },
+                        "ink": {
+                            "hasbackgroundimage": false,
+                            "backgroundimage": "",
+                            "inkunits": 1
+                        }
+                    },
+                    "listView": {
+                        "class": "<Default>",
+                        "style": "",
+                        "dataSourceType": "sql",
+                        "overrides": "",
+                        "flagIsDefined": true,
+                        "staticData": "",
+                        "staticJSONData": "",
+                        "height": "3in",
+                        "width": "4in",
+                        "hasParentList": false,
+                        "parentListId": "",
+                        "preLoadData": false,
+                        "objectNameInParentListForData": "",
+                        "linkingFields": {
+                            "parent": "",
+                            "this": ""
+                        },
+                        "hasDataHeader": false,
+                        "readonlyList": false,
+                        "headerHTML": "",
+                        "noRecordsMessage": {
+                            "has": false,
+                            "HTML": "No records in list.",
+                            "centerH": true,
+                            "centerV": true
+                        },
+                        "templateItemsJSON": "",
+                        "hasDataFooter": false,
+                        "footerHTML": "",
+                        "headerStyle": "",
+                        "footerStyle": "",
+                        "hasFixedHeader": false,
+                        "fixedHeaderHTML": "",
+                        "fixedHeaderStyle": "",
+                        "fixedHeaderClassName": "",
+                        "hasFixedFooter": false,
+                        "fixedFooterHTML": "",
+                        "fixedFooterStyle": "",
+                        "fixedFooterClassName": "",
+                        "fillPanelContainer": false,
+                        "static": {
+                            "dataReturnType": "Field",
+                            "dataReturnField": "",
+                            "dataReturnExpression": ""
+                        },
+                        "jsFuncDS": {
+                            "functionName": "",
+                            "columnNames": "",
+                            "dataReturnType": "Field",
+                            "dataReturnField": "",
+                            "dataReturnExpression": "",
+                            "sampleData": ""
+                        },
+                        "clientSideFilterExpression": "",
+                        "clientSideOrderExpression": "",
+                        "custom": {
+                            "xbasicfunctionname": "",
+                            "localXbasic": false,
+                            "localXbasicDef": "",
+                            "javascriptfunctionname": "",
+                            "dataReturnType": "Field",
+                            "dataReturnField": "",
+                            "dataReturnExpression": "",
+                            "serverSideAfterQueryEvent": ""
+                        },
+                        "dataSeriesSeriesName": "",
+                        "dataSeries": {
+                            "dataReturnType": "Field",
+                            "dataReturnField": ""
+                        },
+                        "sql": {
+                            "dataReturnType": "",
+                            "dataReturnField": "",
+                            "dataReturnExpression": "",
+                            "refreshSchemaOnEdit": true,
+                            "storedSchemaJSON": "",
+                            "flagTableInfoHasBeenUpdated": false,
+                            "connectionString": "::Name::SQL",
+                            "selectType": "CustomSQLStatement",
+                            "tablename": "Patinfo",
+                            "fieldlist": "patcode,famname,patname,appdate,bthdate,gender",
+                            "filter": "",
+                            "distinct": false,
+                            "order": "",
+                            "sqlstatement": "SELECT patcode, famname, patname, appdate, bthdate, gender FROM Patinfo",
+                            "portableSQL": true,
+                            "first": -1,
+                            "primaryKey": "ID",
+                            "serverSideAfterQueryEvent": "",
+                            "serverSideBeforeQueryEvent": "",
+                            "sqlSecurityJSON": "",
+                            "serversidedatenumberformatjson": ""
+                        },
+                        "dbf": {
+                            "dataReturnType": "Field",
+                            "dataReturnField": "",
+                            "dataReturnExpression": "",
+                            "serverSideAfterQueryEvent": "",
+                            "isDefined": false,
+                            "fieldmap": "",
+                            "filter": "",
+                            "order": ""
+                        },
+                        "variablename": "",
+                        "showTitleRow": false,
+                        "titleText": "",
+                        "hasFreeformTemplate": false,
+                        "freeformTemplate": "",
+                        "javascript": {
+                            "onBeforePopulate": "",
+                            "onPopulate": "",
+                            "onBeforeAddRows": "",
+                            "onBeforeRemoveRows": "",
+                            "onBeforeUpdateRow": "",
+                            "onAddRows": "",
+                            "onRemoveRows": "",
+                            "onUpdateRow": "",
+                            "onBeforeListDraw": "",
+                            "onInitialize": "",
+                            "onBeforeItemDraw": "",
+                            "onListDraw": "",
+                            "onItemDraw": "",
+                            "onNavigate": "",
+                            "onSelect": "",
+                            "onBeforeSelect": "",
+                            "afterSelect": "",
+                            "onDblClick": "",
+                            "onClick": "",
+                            "onRightClick": "",
+                            "onTap": "",
+                            "onDblTap": "",
+                            "onDownHold": "",
+                            "onFocus": "",
+                            "onFieldClick": "",
+                            "onFieldDblClick": "",
+                            "onFieldRightClick": "",
+                            "onBlur": "",
+                            "beforeFetchMore": "",
+                            "afterFetchMore": "",
+                            "beforePageNavigate": "",
+                            "afterPageNavigate": "",
+                            "beforeRefreshRow": "",
+                            "afterRefreshRow": "",
+                            "afterRefreshData": "",
+                            "afterRenderComplete": "",
+                            "afterAjaxCallback": "",
+                            "beforeClientSideFilter": "",
+                            "afterClientSideFilter": "",
+                            "beforeServerSideSort": "",
+                            "afterServerSideSort": "",
+                            "afterServerSideSummaryCompute": "",
+                            "afterClientSideSummaryCompute": "",
+                            "beforeClientSideSort": "",
+                            "afterClientSideSort": "",
+                            "onSwipe": "",
+                            "onScroll": "",
+                            "onPullRelease": "",
+                            "onPullEnd": "",
+                            "onPull": "",
+                            "afterSearchComplete": "",
+                            "beforeSearch": "",
+                            "onSearchResultTooLarge": "",
+                            "onSearchResultTooLargeForLocalStorage": "",
+                            "onBeforePersistToLocalStorage": "",
+                            "onPersistToLocalStorage": "",
+                            "onRestoreFromLocalStorage": ""
+                        },
+                        "pullpastEnd": {
+                            "YSetting": "auto",
+                            "XSetting": "auto"
+                        },
+                        "displayTextForNulls": "",
+                        "hasMoreEventsDefined": false,
+                        "hasMultipleLayouts": false,
+                        "autoselectLayoutOnOrientationChange": false,
+                        "autoSelectLandscape": "",
+                        "autoSelectPortrait": "",
+                        "subTheme": "",
+                        "dragScrollDirection": "Both",
+                        "scrolling": {
+                            "isDefined": false,
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "hasSearchPart": false,
+                        "searchPart": {
+                            "fieldMap": "",
+                            "searchFieldProperties": "",
+                            "searchStyle": "IndividualControls",
+                            "combineMultipleConditionsUsing": "AND",
+                            "keywordsearchControl": "",
+                            "keywordSearchFields": "",
+                            "showDebugInfo": false,
+                            "debugInfoPlaceholder": "",
+                            "delayPopulateListTillActiveSearch": false,
+                            "searchErrorPlaceholder": "",
+                            "setMaxProperties": false,
+                            "maxSearchSizeJSON": ""
+                        },
+                        "includeCRC": true,
+                        "userDefinedMethodsJSON": "",
+                        "reverseColumnOrder": false,
+                        "persistDataToLocalStorage": false,
+                        "versionNumber": 1,
+                        "hasDetailView": false,
+                        "detailView": {
+                            "method": "FieldMap",
+                            "fieldMap": "",
+                            "container": "",
+                            "serverSideUpdateRules": "DirtyFieldsOnly",
+                            "showDebuggingInfo": false,
+                            "placeholderForDebuggingInfo": "",
+                            "placeholderGlobalErrors": "",
+                            "suppressGlobalErrorAlerts": false,
+                            "globalErrorStyle": "font-family: Arial; font-size: 10pt; color: red; border: solid 1px red; width: 100%;",
+                            "showFadeOutConfirmationMessage": false,
+                            "fadeOutMessagePlaceholder": "",
+                            "fadeOutMessageText": "",
+                            "fadeOutMessageDuration": 2000,
+                            "fadeOutMessageStyle": "Default",
+                            "submitLocationInformation": false,
+                            "noRecordInListIsSelectedSetting": "None",
+                            "newRecordPolicy": "UseControlDefault",
+                            "useServerSideSyncLog": false,
+                            "clearServerSideSyncLog": true,
+                            "synchronizationHandler": "",
+                            "synchronizationRefreshHandler": "",
+                            "refreshListIncrementalHandler": "",
+                            "synchronizationLevel": "EachListInHierarchy",
+                            "phoneGap": {
+                                "mediaFilesSettingsJSON": ""
+                            },
+                            "customization": {
+                                "clientSideErrorWarning": "Cannot save because there are validation errors.",
+                                "dirtyDetailViewRecord": {
+                                    "title": "Warning",
+                                    "icon": "<Defined in Style>",
+                                    "message": "You must first save or undo the changes you have made to the List's Detail View."
+                                },
+                                "confirmFormResetWarning": {
+                                    "title": "Warning",
+                                    "icon": "<Defined in Style>",
+                                    "message": "Are you sure you want to undo changes made to the List's Detail View?"
+                                },
+                                "confirmRowResetWarning": {
+                                    "title": "Warning",
+                                    "icon": "<Defined in Style>",
+                                    "message": "Are you sure you want to undo changes made to this record?"
+                                },
+                                "confirmDeleteWarning": {
+                                    "title": "Warning",
+                                    "icon": "<Defined in Style>",
+                                    "message": "Are you sure you want to delete this record?"
+                                },
+                                "writeConflict": {
+                                    "message": "Write conflict. Tap here to resolve.",
+                                    "useMineMessage": "Use mine ('{myvalue}')",
+                                    "useTheirsMessage": "Use theirs ('{theirvalue}')",
+                                    "useMineAll": "Use mine for all fields",
+                                    "useTheirsAll": "Use theirs for all fields"
+                                },
+                                "databaseError": {
+                                    "update": "Record was not updated.|More...|Less",
+                                    "insert": "Record was not inserted.|More...|Less",
+                                    "delete": "Record was not deleted.|More...|Less"
+                                },
+                                "useCustomClasses": false,
+                                "customClasses": "",
+                                "setClassonEditedRows": true,
+                                "css": {
+                                    "dirtyRecord": "",
+                                    "newRecord": "",
+                                    "serverSideError": "",
+                                    "deletedRecord": "",
+                                    "dirtyRecordRow": "",
+                                    "newRecordRow": "",
+                                    "serverSideErrorRow": "",
+                                    "deletedRecordRow": ""
+                                }
+                            },
+                            "refreshRowOnSelect": false,
+                            "synchronizeImmediately": false,
+                            "pushServerUpdatesToClientOnCommit": false,
+                            "tablePropertiesDefined": true,
+                            "autoCommitDetailViewEdits": true,
+                            "syncBatchSize": 0,
+                            "synchProgressPlaceholder": "",
+                            "synchProgressProperties": "",
+                            "dirtyControlClassName": "",
+                            "javascript": {
+                                "canUpdateList": "",
+                                "afterUpdateList": "",
+                                "canSynchronizeList": "",
+                                "afterSynchronizeList": "",
+                                "afterRefreshListIncremental": "",
+                                "hasClientSideValidationErrors": "",
+                                "afterSynchronizeListBatch": "",
+                                "beforeSynchronizeListBatchStart": "",
+                                "afterSynchronizeListBatchEnd": "",
+                                "canCancelBatch": "",
+                                "afterCancelBatch": "",
+                                "afterListRowSelectCancelled": "",
+                                "canResetRow": "",
+                                "canDeleteRow": "",
+                                "afterDeleteRow": "",
+                                "canUndoEdits": "",
+                                "afterResetRow": "",
+                                "afterUndoEdits": "",
+                                "canNewRecord": "",
+                                "afterNewRecord": "",
+                                "modeChanged": "",
+                                "afterDetailViewPopulate": "",
+                                "beforeDetailViewPopulate": "",
+                                "beforeMediaFilesUploaded": "",
+                                "afterMediaFilesUploaded": "",
+                                "onMediaFilesUploadErrors": "",
+                                "beforeMediaFilesDownloaded": "",
+                                "afterMediaFilesDownloaded": "",
+                                "beforeDeleteOrphanMediaFiles": "",
+                                "afterDeleteOrphanMediaFiles": ""
+                            },
+                            "hasClientSideEventsDefined": false,
+                            "serverSideEvent": {
+                                "validate": "",
+                                "errorMessageTranslate": "",
+                                "onsynchronize": "",
+                                "aftersynchronize": "",
+                                "aftersynchronizeRecord": ""
+                            }
+                        },
+                        "dragScrollMomentum": true,
+                        "dragScroll": {
+                            "hasCustomSnapSettings": false,
+                            "snap": {
+                                "x": {
+                                    "use": false,
+                                    "offset": "0",
+                                    "step": "1"
+                                },
+                                "y": {
+                                    "use": false,
+                                    "offset": "0",
+                                    "step": "1"
+                                }
+                            }
+                        },
+                        "behavior": {
+                            "pulltorefresh": false,
+                            "pulltoRefreshSettingsJSON": ""
+                        },
+                        "searchHighlighting": false,
+                        "searchHighlightClass": "",
+                        "searchHighlightStyle": "color: red;",
+                        "customSettingsJSON": "",
+                        "clientSideVirtualColumns": "",
+                        "clientSideLookupColumnsJSON": "",
+                        "clientSideGroupBreaksHas": false,
+                        "clientSideGroupBreakJSON": "",
+                        "listNavigatorHas": false,
+                        "listNavigatorJSON": "",
+                        "serverSideRowStyle": "",
+                        "clientSideRowStyle": "",
+                        "defaults": {
+                            "indexLayout": 1
+                        },
+                        "fieldsArray": {
+                            "fields": [
+                                {
+                                    "name": "patcode",
+                                    "type": "C",
+                                    "displayFormat": "",
+                                    "serverSideInlineStyle": "",
+                                    "serverSideConditionalStyle": "",
+                                    "securityGroups": "",
+                                    "javascriptAddressible": false,
+                                    "serversideShowhideExpn": "",
+                                    "clientSideShowHideExpn": "",
+                                    "controlType": "Label",
+                                    "clientsideInlineStyle": "",
+                                    "wordwrap": false,
+                                    "wordwrapOption": "normal",
+                                    "clientsideClass": "",
+                                    "baseExpression": "patcode",
+                                    "searchPropertiesJSON": "",
+                                    "image": {
+                                        "base64Encode": false,
+                                        "type": "JPG",
+                                        "scale": "",
+                                        "fileNameTransformation": "",
+                                        "imageDataType": "Name",
+                                        "base64Prefix": "data:image/jpg;base64,",
+                                        "noImageFoundImage": ""
+                                    },
+                                    "sourceTableType": "",
+                                    "detailview": {
+                                        "serversidevalidation": "",
+                                        "defaultValueJavascript": "",
+                                        "onDetailViewPopulateJavascript": "",
+                                        "onListUpdateFromDetailView": "",
+                                        "updateable": true,
+                                        "checkforwriteConflicts": true,
+                                        "blankIsNull": false,
+                                        "updatePermissionSecurityGroups": "",
+                                        "serverSidePermissionExpression": "",
+                                        "imageCapturePropertiesJSON": "",
+                                        "ExifCapturePropertiesJSON": ""
+                                    },
+                                    "button": {
+                                        "label": "Button",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "hyperlink": {
+                                        "label": "Hyperlink",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "actionType": "Javascript",
+                                        "href": "",
+                                        "target": "New Window",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "unboundtype": "",
+                                    "dynamicImage": {
+                                        "definition": "",
+                                        "class": "",
+                                        "style": "",
+                                        "bubbleHelp": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "serverSideSummaryFieldsHas": false,
+                                    "serverSideSummaryFields": "",
+                                    "clientSideSummaryFieldsHas": false,
+                                    "clientSideTypeTransform": "None",
+                                    "clientSideDateTemplate": "MM-dd-yyyy",
+                                    "clientSideDateFormat": "<None>",
+                                    "clientSideNumericFormat": "",
+                                    "customControl": {
+                                        "definition": ""
+                                    },
+                                    "isComputedColumn": false,
+                                    "ink": {
+                                        "width": "300",
+                                        "height": "",
+                                        "sizeMethod": "Width-Height",
+                                        "scale": 0.25,
+                                        "zoom": "50%",
+                                        "boundsType": "Page",
+                                        "boundsMargin": 10,
+                                        "boundsX": 0,
+                                        "boundsY": 0,
+                                        "boundsWidth": 100,
+                                        "boundsHeight": 100
+                                    },
+                                    "baseName": "patcode",
+                                    "clientInlineStyle": "",
+                                    "unboundField": false,
+                                    "deleteField": false,
+                                    "display": "{data=1}{I:'$$control.smartField'} patcode (C)"
+                                },
+                                {
+                                    "name": "famname",
+                                    "type": "C",
+                                    "displayFormat": "",
+                                    "serverSideInlineStyle": "",
+                                    "serverSideConditionalStyle": "",
+                                    "securityGroups": "",
+                                    "javascriptAddressible": false,
+                                    "serversideShowhideExpn": "",
+                                    "clientSideShowHideExpn": "",
+                                    "controlType": "Label",
+                                    "clientsideInlineStyle": "",
+                                    "wordwrap": false,
+                                    "wordwrapOption": "normal",
+                                    "clientsideClass": "",
+                                    "baseExpression": "famname",
+                                    "searchPropertiesJSON": "",
+                                    "image": {
+                                        "base64Encode": false,
+                                        "type": "JPG",
+                                        "scale": "",
+                                        "fileNameTransformation": "",
+                                        "imageDataType": "Name",
+                                        "base64Prefix": "data:image/jpg;base64,",
+                                        "noImageFoundImage": ""
+                                    },
+                                    "sourceTableType": "",
+                                    "detailview": {
+                                        "serversidevalidation": "",
+                                        "defaultValueJavascript": "",
+                                        "onDetailViewPopulateJavascript": "",
+                                        "onListUpdateFromDetailView": "",
+                                        "updateable": true,
+                                        "checkforwriteConflicts": true,
+                                        "blankIsNull": false,
+                                        "updatePermissionSecurityGroups": "",
+                                        "serverSidePermissionExpression": "",
+                                        "imageCapturePropertiesJSON": "",
+                                        "ExifCapturePropertiesJSON": ""
+                                    },
+                                    "button": {
+                                        "label": "Button",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "hyperlink": {
+                                        "label": "Hyperlink",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "actionType": "Javascript",
+                                        "href": "",
+                                        "target": "New Window",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "unboundtype": "",
+                                    "dynamicImage": {
+                                        "definition": "",
+                                        "class": "",
+                                        "style": "",
+                                        "bubbleHelp": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "serverSideSummaryFieldsHas": false,
+                                    "serverSideSummaryFields": "",
+                                    "clientSideSummaryFieldsHas": false,
+                                    "clientSideTypeTransform": "None",
+                                    "clientSideDateTemplate": "MM-dd-yyyy",
+                                    "clientSideDateFormat": "<None>",
+                                    "clientSideNumericFormat": "",
+                                    "customControl": {
+                                        "definition": ""
+                                    },
+                                    "isComputedColumn": false,
+                                    "ink": {
+                                        "width": "300",
+                                        "height": "",
+                                        "sizeMethod": "Width-Height",
+                                        "scale": 0.25,
+                                        "zoom": "50%",
+                                        "boundsType": "Page",
+                                        "boundsMargin": 10,
+                                        "boundsX": 0,
+                                        "boundsY": 0,
+                                        "boundsWidth": 100,
+                                        "boundsHeight": 100
+                                    },
+                                    "baseName": "famname",
+                                    "clientInlineStyle": "",
+                                    "unboundField": false,
+                                    "deleteField": false,
+                                    "display": "{data=2}{I:'$$control.smartField'} famname (C)"
+                                },
+                                {
+                                    "name": "patname",
+                                    "type": "C",
+                                    "displayFormat": "",
+                                    "serverSideInlineStyle": "",
+                                    "serverSideConditionalStyle": "",
+                                    "securityGroups": "",
+                                    "javascriptAddressible": false,
+                                    "serversideShowhideExpn": "",
+                                    "clientSideShowHideExpn": "",
+                                    "controlType": "Label",
+                                    "clientsideInlineStyle": "",
+                                    "wordwrap": false,
+                                    "wordwrapOption": "normal",
+                                    "clientsideClass": "",
+                                    "baseExpression": "patname",
+                                    "searchPropertiesJSON": "",
+                                    "image": {
+                                        "base64Encode": false,
+                                        "type": "JPG",
+                                        "scale": "",
+                                        "fileNameTransformation": "",
+                                        "imageDataType": "Name",
+                                        "base64Prefix": "data:image/jpg;base64,",
+                                        "noImageFoundImage": ""
+                                    },
+                                    "sourceTableType": "",
+                                    "detailview": {
+                                        "serversidevalidation": "",
+                                        "defaultValueJavascript": "",
+                                        "onDetailViewPopulateJavascript": "",
+                                        "onListUpdateFromDetailView": "",
+                                        "updateable": true,
+                                        "checkforwriteConflicts": true,
+                                        "blankIsNull": false,
+                                        "updatePermissionSecurityGroups": "",
+                                        "serverSidePermissionExpression": "",
+                                        "imageCapturePropertiesJSON": "",
+                                        "ExifCapturePropertiesJSON": ""
+                                    },
+                                    "button": {
+                                        "label": "Button",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "hyperlink": {
+                                        "label": "Hyperlink",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "actionType": "Javascript",
+                                        "href": "",
+                                        "target": "New Window",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "unboundtype": "",
+                                    "dynamicImage": {
+                                        "definition": "",
+                                        "class": "",
+                                        "style": "",
+                                        "bubbleHelp": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "serverSideSummaryFieldsHas": false,
+                                    "serverSideSummaryFields": "",
+                                    "clientSideSummaryFieldsHas": false,
+                                    "clientSideTypeTransform": "None",
+                                    "clientSideDateTemplate": "MM-dd-yyyy",
+                                    "clientSideDateFormat": "<None>",
+                                    "clientSideNumericFormat": "",
+                                    "customControl": {
+                                        "definition": ""
+                                    },
+                                    "isComputedColumn": false,
+                                    "ink": {
+                                        "width": "300",
+                                        "height": "",
+                                        "sizeMethod": "Width-Height",
+                                        "scale": 0.25,
+                                        "zoom": "50%",
+                                        "boundsType": "Page",
+                                        "boundsMargin": 10,
+                                        "boundsX": 0,
+                                        "boundsY": 0,
+                                        "boundsWidth": 100,
+                                        "boundsHeight": 100
+                                    },
+                                    "baseName": "patname",
+                                    "clientInlineStyle": "",
+                                    "unboundField": false,
+                                    "deleteField": false,
+                                    "display": "{data=3}{I:'$$control.smartField'} patname (C)"
+                                },
+                                {
+                                    "name": "appdate",
+                                    "type": "D",
+                                    "displayFormat": "",
+                                    "serverSideInlineStyle": "",
+                                    "serverSideConditionalStyle": "",
+                                    "securityGroups": "",
+                                    "javascriptAddressible": false,
+                                    "serversideShowhideExpn": "",
+                                    "clientSideShowHideExpn": "",
+                                    "controlType": "Label",
+                                    "clientsideInlineStyle": "",
+                                    "wordwrap": false,
+                                    "wordwrapOption": "normal",
+                                    "clientsideClass": "",
+                                    "baseExpression": "appdate",
+                                    "searchPropertiesJSON": "",
+                                    "image": {
+                                        "base64Encode": false,
+                                        "type": "JPG",
+                                        "scale": "",
+                                        "fileNameTransformation": "",
+                                        "imageDataType": "Name",
+                                        "base64Prefix": "data:image/jpg;base64,",
+                                        "noImageFoundImage": ""
+                                    },
+                                    "sourceTableType": "",
+                                    "detailview": {
+                                        "serversidevalidation": "",
+                                        "defaultValueJavascript": "",
+                                        "onDetailViewPopulateJavascript": "",
+                                        "onListUpdateFromDetailView": "",
+                                        "updateable": true,
+                                        "checkforwriteConflicts": true,
+                                        "blankIsNull": false,
+                                        "updatePermissionSecurityGroups": "",
+                                        "serverSidePermissionExpression": "",
+                                        "imageCapturePropertiesJSON": "",
+                                        "ExifCapturePropertiesJSON": ""
+                                    },
+                                    "button": {
+                                        "label": "Button",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "hyperlink": {
+                                        "label": "Hyperlink",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "actionType": "Javascript",
+                                        "href": "",
+                                        "target": "New Window",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "unboundtype": "",
+                                    "dynamicImage": {
+                                        "definition": "",
+                                        "class": "",
+                                        "style": "",
+                                        "bubbleHelp": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "serverSideSummaryFieldsHas": false,
+                                    "serverSideSummaryFields": "",
+                                    "clientSideSummaryFieldsHas": false,
+                                    "clientSideTypeTransform": "None",
+                                    "clientSideDateTemplate": "MM-dd-yyyy",
+                                    "clientSideDateFormat": "<None>",
+                                    "clientSideNumericFormat": "",
+                                    "customControl": {
+                                        "definition": ""
+                                    },
+                                    "isComputedColumn": false,
+                                    "ink": {
+                                        "width": "300",
+                                        "height": "",
+                                        "sizeMethod": "Width-Height",
+                                        "scale": 0.25,
+                                        "zoom": "50%",
+                                        "boundsType": "Page",
+                                        "boundsMargin": 10,
+                                        "boundsX": 0,
+                                        "boundsY": 0,
+                                        "boundsWidth": 100,
+                                        "boundsHeight": 100
+                                    },
+                                    "baseName": "appdate",
+                                    "clientInlineStyle": "",
+                                    "unboundField": false,
+                                    "deleteField": false,
+                                    "display": "{data=4}{I:'$$control.smartField'} appdate (D)"
+                                },
+                                {
+                                    "name": "bthdate",
+                                    "type": "N",
+                                    "displayFormat": "",
+                                    "serverSideInlineStyle": "",
+                                    "serverSideConditionalStyle": "",
+                                    "securityGroups": "",
+                                    "javascriptAddressible": false,
+                                    "serversideShowhideExpn": "",
+                                    "clientSideShowHideExpn": "",
+                                    "controlType": "Label",
+                                    "clientsideInlineStyle": "",
+                                    "wordwrap": false,
+                                    "wordwrapOption": "normal",
+                                    "clientsideClass": "",
+                                    "baseExpression": "bthdate",
+                                    "searchPropertiesJSON": "",
+                                    "image": {
+                                        "base64Encode": false,
+                                        "type": "JPG",
+                                        "scale": "",
+                                        "fileNameTransformation": "",
+                                        "imageDataType": "Name",
+                                        "base64Prefix": "data:image/jpg;base64,",
+                                        "noImageFoundImage": ""
+                                    },
+                                    "sourceTableType": "",
+                                    "detailview": {
+                                        "serversidevalidation": "",
+                                        "defaultValueJavascript": "",
+                                        "onDetailViewPopulateJavascript": "",
+                                        "onListUpdateFromDetailView": "",
+                                        "updateable": true,
+                                        "checkforwriteConflicts": true,
+                                        "blankIsNull": false,
+                                        "updatePermissionSecurityGroups": "",
+                                        "serverSidePermissionExpression": "",
+                                        "imageCapturePropertiesJSON": "",
+                                        "ExifCapturePropertiesJSON": ""
+                                    },
+                                    "button": {
+                                        "label": "Button",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "hyperlink": {
+                                        "label": "Hyperlink",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "actionType": "Javascript",
+                                        "href": "",
+                                        "target": "New Window",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "unboundtype": "",
+                                    "dynamicImage": {
+                                        "definition": "",
+                                        "class": "",
+                                        "style": "",
+                                        "bubbleHelp": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "serverSideSummaryFieldsHas": false,
+                                    "serverSideSummaryFields": "",
+                                    "clientSideSummaryFieldsHas": false,
+                                    "clientSideTypeTransform": "None",
+                                    "clientSideDateTemplate": "MM-dd-yyyy",
+                                    "clientSideDateFormat": "<None>",
+                                    "clientSideNumericFormat": "",
+                                    "customControl": {
+                                        "definition": ""
+                                    },
+                                    "isComputedColumn": false,
+                                    "ink": {
+                                        "width": "300",
+                                        "height": "",
+                                        "sizeMethod": "Width-Height",
+                                        "scale": 0.25,
+                                        "zoom": "50%",
+                                        "boundsType": "Page",
+                                        "boundsMargin": 10,
+                                        "boundsX": 0,
+                                        "boundsY": 0,
+                                        "boundsWidth": 100,
+                                        "boundsHeight": 100
+                                    },
+                                    "baseName": "bthdate",
+                                    "clientInlineStyle": "",
+                                    "unboundField": false,
+                                    "deleteField": false,
+                                    "display": "{data=5}{I:'$$control.smartField'} bthdate (N)"
+                                },
+                                {
+                                    "name": "gender",
+                                    "type": "N",
+                                    "displayFormat": "",
+                                    "serverSideInlineStyle": "",
+                                    "serverSideConditionalStyle": "",
+                                    "securityGroups": "",
+                                    "javascriptAddressible": false,
+                                    "serversideShowhideExpn": "",
+                                    "clientSideShowHideExpn": "",
+                                    "controlType": "Label",
+                                    "clientsideInlineStyle": "",
+                                    "wordwrap": false,
+                                    "wordwrapOption": "normal",
+                                    "clientsideClass": "",
+                                    "baseExpression": "gender",
+                                    "searchPropertiesJSON": "",
+                                    "image": {
+                                        "base64Encode": false,
+                                        "type": "JPG",
+                                        "scale": "",
+                                        "fileNameTransformation": "",
+                                        "imageDataType": "Name",
+                                        "base64Prefix": "data:image/jpg;base64,",
+                                        "noImageFoundImage": ""
+                                    },
+                                    "sourceTableType": "",
+                                    "detailview": {
+                                        "serversidevalidation": "",
+                                        "defaultValueJavascript": "",
+                                        "onDetailViewPopulateJavascript": "",
+                                        "onListUpdateFromDetailView": "",
+                                        "updateable": true,
+                                        "checkforwriteConflicts": true,
+                                        "blankIsNull": false,
+                                        "updatePermissionSecurityGroups": "",
+                                        "serverSidePermissionExpression": "",
+                                        "imageCapturePropertiesJSON": "",
+                                        "ExifCapturePropertiesJSON": ""
+                                    },
+                                    "button": {
+                                        "label": "Button",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "hyperlink": {
+                                        "label": "Hyperlink",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "actionType": "Javascript",
+                                        "href": "",
+                                        "target": "New Window",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "unboundtype": "",
+                                    "dynamicImage": {
+                                        "definition": "",
+                                        "class": "",
+                                        "style": "",
+                                        "bubbleHelp": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "serverSideSummaryFieldsHas": false,
+                                    "serverSideSummaryFields": "",
+                                    "clientSideSummaryFieldsHas": false,
+                                    "clientSideTypeTransform": "None",
+                                    "clientSideDateTemplate": "MM-dd-yyyy",
+                                    "clientSideDateFormat": "<None>",
+                                    "clientSideNumericFormat": "",
+                                    "customControl": {
+                                        "definition": ""
+                                    },
+                                    "isComputedColumn": false,
+                                    "ink": {
+                                        "width": "300",
+                                        "height": "",
+                                        "sizeMethod": "Width-Height",
+                                        "scale": 0.25,
+                                        "zoom": "50%",
+                                        "boundsType": "Page",
+                                        "boundsMargin": 10,
+                                        "boundsX": 0,
+                                        "boundsY": 0,
+                                        "boundsWidth": 100,
+                                        "boundsHeight": 100
+                                    },
+                                    "baseName": "gender",
+                                    "clientInlineStyle": "",
+                                    "unboundField": false,
+                                    "deleteField": false,
+                                    "display": "{data=6}{I:'$$control.smartField'} gender (N)"
+                                }
+                            ]
+                        },
+                        "layoutsArray": {
+                            "layouts": [
+                                {
+                                    "Name": "Default",
+                                    "Type": "Column",
+                                    "showColumnTitles": true,
+                                    "columns": [
+                                        {
+                                            "heading": "patcode",
+                                            "template": "{patcode}",
+                                            "canSort": true,
+                                            "sortColumnName": "patcode",
+                                            "sortWhere": "ClientSide",
+                                            "serverSideSortExpression": "patcode",
+                                            "name": "patcode",
+                                            "hideColumnReferenceField": "patcode",
+                                            "display": "{I:'$$control.smartField'} patcode",
+                                            "headingClassName": "",
+                                            "columnIsResizeable": false,
+                                            "headingInlineStyle": "",
+                                            "dataInlineStyle": "",
+                                            "columnWidth": "flex(1)",
+                                            "sortJavascript": "",
+                                            "javascript": {
+                                                "onclick": "",
+                                                "onrightclick": ""
+                                            },
+                                            "hideColumnIfFieldHidden": true
+                                        },
+                                        {
+                                            "heading": "famname",
+                                            "template": "{famname}",
+                                            "canSort": true,
+                                            "sortColumnName": "famname",
+                                            "sortWhere": "ClientSide",
+                                            "serverSideSortExpression": "famname",
+                                            "name": "famname",
+                                            "hideColumnReferenceField": "famname",
+                                            "display": "{I:'$$control.smartField'} famname",
+                                            "headingClassName": "",
+                                            "columnIsResizeable": false,
+                                            "headingInlineStyle": "",
+                                            "dataInlineStyle": "",
+                                            "columnWidth": "flex(1)",
+                                            "sortJavascript": "",
+                                            "javascript": {
+                                                "onclick": "",
+                                                "onrightclick": ""
+                                            },
+                                            "hideColumnIfFieldHidden": true
+                                        },
+                                        {
+                                            "heading": "patname",
+                                            "template": "{patname}",
+                                            "canSort": true,
+                                            "sortColumnName": "patname",
+                                            "sortWhere": "ClientSide",
+                                            "serverSideSortExpression": "patname",
+                                            "name": "patname",
+                                            "hideColumnReferenceField": "patname",
+                                            "display": "{I:'$$control.smartField'} patname",
+                                            "headingClassName": "",
+                                            "columnIsResizeable": false,
+                                            "headingInlineStyle": "",
+                                            "dataInlineStyle": "",
+                                            "columnWidth": "flex(1)",
+                                            "sortJavascript": "",
+                                            "javascript": {
+                                                "onclick": "",
+                                                "onrightclick": ""
+                                            },
+                                            "hideColumnIfFieldHidden": true
+                                        },
+                                        {
+                                            "heading": "appdate",
+                                            "template": "{appdate}",
+                                            "canSort": true,
+                                            "sortColumnName": "appdate",
+                                            "sortWhere": "ClientSide",
+                                            "serverSideSortExpression": "appdate",
+                                            "name": "appdate",
+                                            "hideColumnReferenceField": "appdate",
+                                            "display": "{I:'$$control.smartField'} appdate",
+                                            "headingClassName": "",
+                                            "columnIsResizeable": false,
+                                            "headingInlineStyle": "",
+                                            "dataInlineStyle": "",
+                                            "columnWidth": "flex(1)",
+                                            "sortJavascript": "",
+                                            "javascript": {
+                                                "onclick": "",
+                                                "onrightclick": ""
+                                            },
+                                            "hideColumnIfFieldHidden": true
+                                        },
+                                        {
+                                            "heading": "bthdate",
+                                            "template": "{bthdate}",
+                                            "canSort": true,
+                                            "sortColumnName": "bthdate",
+                                            "sortWhere": "ClientSide",
+                                            "serverSideSortExpression": "bthdate",
+                                            "name": "bthdate",
+                                            "hideColumnReferenceField": "bthdate",
+                                            "display": "{I:'$$control.smartField'} bthdate",
+                                            "headingClassName": "",
+                                            "columnIsResizeable": false,
+                                            "headingInlineStyle": "",
+                                            "dataInlineStyle": "",
+                                            "columnWidth": "flex(1)",
+                                            "sortJavascript": "",
+                                            "javascript": {
+                                                "onclick": "",
+                                                "onrightclick": ""
+                                            },
+                                            "hideColumnIfFieldHidden": true
+                                        },
+                                        {
+                                            "heading": "gender",
+                                            "template": "{gender}",
+                                            "canSort": true,
+                                            "sortColumnName": "gender",
+                                            "sortWhere": "ClientSide",
+                                            "serverSideSortExpression": "gender",
+                                            "name": "gender",
+                                            "hideColumnReferenceField": "gender",
+                                            "display": "{I:'$$control.smartField'} gender",
+                                            "headingClassName": "",
+                                            "columnIsResizeable": false,
+                                            "headingInlineStyle": "",
+                                            "dataInlineStyle": "",
+                                            "columnWidth": "flex(1)",
+                                            "sortJavascript": "",
+                                            "javascript": {
+                                                "onclick": "",
+                                                "onrightclick": ""
+                                            },
+                                            "hideColumnIfFieldHidden": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "dataBinding": {
+                            "tablesArray": {
+                                "tables": [
+                                    {
+                                        "table": "Patinfo",
+                                        "owner": "",
+                                        "alias": "Patinfo",
+                                        "primaryKeyFields": "ID",
+                                        "mapPrimaryKeyToListQuery": "",
+                                        "primaryKeyIsAutoIncrement": true,
+                                        "sequenceName": "",
+                                        "sqlInsertSequence": "",
+                                        "tableInfo": "ID=N|T|T|Integer32|!!|ID\npatcode=C|F|T|VaryingCharacter|!!|patcode\nfamname=C|F|T|VaryingCharacter|!!|famname\npatname=C|F|T|VaryingCharacter|!!|patname\nappdate=D|F|T|Date|!!|appdate\nbthdate=N|F|T|Number|!!|bthdate\ngender=N|F|T|Number|!!|gender\npatsit=N|F|T|Number|!!|patsit\nreason=C|F|F|VaryingCharacter|!!|reason\ndescript=C|F|T|VaryingCharacter|!!|descript\nchild=C|F|T|VaryingCharacter|!!|child\ndepend=C|F|T|VaryingCharacter|!!|depend\nnationals=C|F|T|VaryingCharacter|!!|nationals\nreligion=C|F|T|VaryingCharacter|!!|religion\nstatus=N|F|T|Number|!!|status\ndatemar=N|F|T|Number|!!|datemar\nworks=N|F|T|Number|!!|works\nsocial=N|F|T|Number|!!|social\nsocial1=C|F|T|VaryingCharacter|!!|social1\nregion=C|F|T|VaryingCharacter|!!|region\naddress=C|F|F|VaryingCharacter|!!|address\nreferto=C|F|T|VaryingCharacter|!!|referto\nprofess=C|F|T|VaryingCharacter|!!|profess\nincome=N|F|T|Number|!!|income\nstatemp=N|F|T|Number|!!|statemp\nregemp=C|F|T|VaryingCharacter|!!|regemp\naddemp=C|F|F|VaryingCharacter|!!|addemp\ncoment=C|F|F|VaryingCharacter|!!|coment\ndatep=D|F|T|Date|!!|datep\ndocname=C|F|T|VaryingCharacter|!!|docname\nrelation=C|F|T|VaryingCharacter|!!|relation\npatfull=C|F|T|VaryingCharacter|!!|patfull\ncategs=C|F|T|VaryingCharacter|!!|categs\nobjectif=C|F|F|VaryingCharacter|!!|objectif\nasses=C|F|F|VaryingCharacter|!!|asses\nrecomend=C|F|F|VaryingCharacter|!!|recomend\nnoofmem=N|F|T|Number|!!|noofmem\ntelno=C|F|T|VaryingCharacter|!!|telno\nrentmois=N|F|T|Number|!!|rentmois\nfirst=N|F|T|Number|!!|[first]\ncoment1=C|F|F|VaryingCharacter|!!|coment1\nphone2=C|F|T|VaryingCharacter|!!|phone2\nmodified=T|F|T|DateTime|!!|modified\nusers=C|F|T|VaryingCharacter|!!|users\notherfamcom=C|F|F|VaryingCharacter|!!|otherfamcom\ndead=N|F|T|Number|!!|dead\npage4com=C|F|F|VaryingCharacter|!!|page4com\nypatcode=C|F|T|VaryingCharacter|!!|ypatcode\npatpict=C|F|T|VaryingCharacter|!!|patpict\nothernam=C|F|T|VaryingCharacter|!!|othernam\nfathpat=C|F|T|VaryingCharacter|!!|fathpat\nmothpat=C|F|T|VaryingCharacter|!!|mothpat\nUsername=C|F|T|VaryingCharacter|!!|Username\nCompany=C|F|T|VaryingCharacter|!!|Company\nRealDate=T|F|T|DateTime|!!|RealDate\n",
+                                        "tableInfoCRC": 4294941580,
+                                        "updateWhereClause": "{ID}=ID = :old_ID\n{patcode}=(patcode = :old_patcode OR patcode IS NULL AND :old_patcode IS NULL)\n{famname}=(famname = :old_famname OR famname IS NULL AND :old_famname IS NULL)\n{patname}=(patname = :old_patname OR patname IS NULL AND :old_patname IS NULL)\n{appdate}=(appdate = :old_appdate OR appdate IS NULL AND :old_appdate IS NULL)\n{bthdate}=(bthdate = :old_bthdate OR bthdate IS NULL AND :old_bthdate IS NULL)\n{gender}=(gender = :old_gender OR gender IS NULL AND :old_gender IS NULL)\n{patsit}=(patsit = :old_patsit OR patsit IS NULL AND :old_patsit IS NULL)\n{reason}=(reason = :old_reason OR reason IS NULL AND :old_reason IS NULL)\n{descript}=(descript = :old_descript OR descript IS NULL AND :old_descript IS NULL)\n{child}=(child = :old_child OR child IS NULL AND :old_child IS NULL)\n{depend}=(depend = :old_depend OR depend IS NULL AND :old_depend IS NULL)\n{nationals}=(nationals = :old_nationals OR nationals IS NULL AND :old_nationals IS NULL)\n{religion}=(religion = :old_religion OR religion IS NULL AND :old_religion IS NULL)\n{status}=(status = :old_status OR status IS NULL AND :old_status IS NULL)\n{datemar}=(datemar = :old_datemar OR datemar IS NULL AND :old_datemar IS NULL)\n{works}=(works = :old_works OR works IS NULL AND :old_works IS NULL)\n{social}=(social = :old_social OR social IS NULL AND :old_social IS NULL)\n{social1}=(social1 = :old_social1 OR social1 IS NULL AND :old_social1 IS NULL)\n{region}=(region = :old_region OR region IS NULL AND :old_region IS NULL)\n{address}=(address = :old_address OR address IS NULL AND :old_address IS NULL)\n{referto}=(referto = :old_referto OR referto IS NULL AND :old_referto IS NULL)\n{profess}=(profess = :old_profess OR profess IS NULL AND :old_profess IS NULL)\n{income}=(income = :old_income OR income IS NULL AND :old_income IS NULL)\n{statemp}=(statemp = :old_statemp OR statemp IS NULL AND :old_statemp IS NULL)\n{regemp}=(regemp = :old_regemp OR regemp IS NULL AND :old_regemp IS NULL)\n{addemp}=(addemp = :old_addemp OR addemp IS NULL AND :old_addemp IS NULL)\n{coment}=(coment = :old_coment OR coment IS NULL AND :old_coment IS NULL)\n{datep}=(datep = :old_datep OR datep IS NULL AND :old_datep IS NULL)\n{docname}=(docname = :old_docname OR docname IS NULL AND :old_docname IS NULL)\n{relation}=(relation = :old_relation OR relation IS NULL AND :old_relation IS NULL)\n{patfull}=(patfull = :old_patfull OR patfull IS NULL AND :old_patfull IS NULL)\n{categs}=(categs = :old_categs OR categs IS NULL AND :old_categs IS NULL)\n{objectif}=(objectif = :old_objectif OR objectif IS NULL AND :old_objectif IS NULL)\n{asses}=(asses = :old_asses OR asses IS NULL AND :old_asses IS NULL)\n{recomend}=(recomend = :old_recomend OR recomend IS NULL AND :old_recomend IS NULL)\n{noofmem}=(noofmem = :old_noofmem OR noofmem IS NULL AND :old_noofmem IS NULL)\n{telno}=(telno = :old_telno OR telno IS NULL AND :old_telno IS NULL)\n{rentmois}=(rentmois = :old_rentmois OR rentmois IS NULL AND :old_rentmois IS NULL)\n{first}=([first] = :old_first OR [first] IS NULL AND :old_first IS NULL)\n{coment1}=(coment1 = :old_coment1 OR coment1 IS NULL AND :old_coment1 IS NULL)\n{phone2}=(phone2 = :old_phone2 OR phone2 IS NULL AND :old_phone2 IS NULL)\n{modified}=(modified = :old_modified OR modified IS NULL AND :old_modified IS NULL)\n{users}=(users = :old_users OR users IS NULL AND :old_users IS NULL)\n{otherfamcom}=(otherfamcom = :old_otherfamcom OR otherfamcom IS NULL AND :old_otherfamcom IS NULL)\n{dead}=(dead = :old_dead OR dead IS NULL AND :old_dead IS NULL)\n{page4com}=(page4com = :old_page4com OR page4com IS NULL AND :old_page4com IS NULL)\n{ypatcode}=(ypatcode = :old_ypatcode OR ypatcode IS NULL AND :old_ypatcode IS NULL)\n{patpict}=(patpict = :old_patpict OR patpict IS NULL AND :old_patpict IS NULL)\n{othernam}=(othernam = :old_othernam OR othernam IS NULL AND :old_othernam IS NULL)\n{fathpat}=(fathpat = :old_fathpat OR fathpat IS NULL AND :old_fathpat IS NULL)\n{mothpat}=(mothpat = :old_mothpat OR mothpat IS NULL AND :old_mothpat IS NULL)\n{Username}=(Username = :old_Username OR Username IS NULL AND :old_Username IS NULL)\n{Company}=(Company = :old_Company OR Company IS NULL AND :old_Company IS NULL)\n{RealDate}=(RealDate = :old_RealDate OR RealDate IS NULL AND :old_RealDate IS NULL)\n",
+                                        "updateWhereClauseNative": "",
+                                        "allowInsert": true,
+                                        "allowUpdate": true,
+                                        "allowDelete": true,
+                                        "deleteType": "Hard",
+                                        "deleteField": "",
+                                        "readonly": false,
+                                        "securityGroups_insert": "",
+                                        "securityGroups_update": "",
+                                        "securityGroups_delete": "",
+                                        "serversidePermission_insert": "",
+                                        "serversidePermission_update": "",
+                                        "serversidePermission_delete": "",
+                                        "joinDefinition": "",
+                                        "parentAlias": "",
+                                        "events": {
+                                            "beforeInsert": "",
+                                            "beforeUpdate": "",
+                                            "beforeDelete": "",
+                                            "afterInsert": "",
+                                            "afterUpdate": "",
+                                            "afterDelete": "",
+                                            "onWriteConflict": "",
+                                            "onSQLError": ""
+                                        },
+                                        "geography": {
+                                            "geocodeFieldDefinition": "",
+                                            "locationFieldDefinition": ""
+                                        },
+                                        "flagStoreLocationInformationC": "No",
+                                        "flagStoreLocationInformation": false,
+                                        "latField": "",
+                                        "lngField": "",
+                                        "flagUpdateLocationField": false,
+                                        "storeLocationWhen": "InsertOnly",
+                                        "locationFieldNameForLatLng": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "odata": {
+                            "url": "http://services.odata.org/V4/Northwind/Northwind.svc",
+                            "serviceType": "OData",
+                            "requiresAuthentication": false,
+                            "usesCSRFToken": false,
+                            "authType": "Basic",
+                            "authUsername": "",
+                            "authPassword": "",
+                            "containerName": "",
+                            "columns": "",
+                            "filter": "",
+                            "order": "",
+                            "max_rows": -1,
+                            "dataReturnType": "Field",
+                            "dataReturnField": "",
+                            "primarykey": "",
+                            "primaryKeyType": ""
+                        },
+                        "paginateData": false,
+                        "pageSize": 20,
+                        "paginateMethod": "FetchMore",
+                        "fetchMoreButtonHTML": "More records...",
+                        "fetchMoreButtonType": "Button",
+                        "fetchMoreButtonStyle": "",
+                        "fetchMoreButtonContainerStyle": "text-align: center;",
+                        "breaks": {
+                            "has": false,
+                            "field": "",
+                            "sortDescending": false,
+                            "sortOnBreakField": true,
+                            "fieldChars": -1,
+                            "template": "",
+                            "stringDictionary": "",
+                            "caseSensitive": false,
+                            "breakType": "Automatic",
+                            "userDefinedBreakGroups": "",
+                            "geographyUnits": "Meters|Meters"
+                        },
+                        "allowNullSelection": true,
+                        "allowTextSelection": false,
+                        "allowNullDeselection": false,
+                        "loopNavigate": false,
+                        "loopNavigateNullSelection": false,
+                        "delayRenderTillVisible": false,
+                        "delayRenderTillRefresh": false,
+                        "multiSelect": false,
+                        "multiSelectMode": "Control-click",
+                        "localCSS": "",
+                        "virtualization": {
+                            "type": "None",
+                            "size": 50,
+                            "maxSize": 0,
+                            "offset": 10,
+                            "navigation": {
+                                "pull": true,
+                                "pullSize": 40,
+                                "prevHTML": "Previous",
+                                "prevClassName": "",
+                                "prevPressedClassName": "",
+                                "nextHTML": "Next",
+                                "nextClassName": "",
+                                "nextPressedClassName": ""
+                            }
+                        },
+                        "scroller": {
+                            "has": false,
+                            "messageType": "Template",
+                            "messageTemplate": "",
+                            "messageJS": "",
+                            "customizationIsDefined": false,
+                            "flow": "ttb",
+                            "location": "after",
+                            "className": "",
+                            "focusClassName": "",
+                            "dialClassName": "",
+                            "style": "",
+                            "offset": {
+                                "top": "0px",
+                                "bottom": "0px",
+                                "left": "0px",
+                                "right": "0px"
+                            },
+                            "slider": {
+                                "className": "",
+                                "innerClassName": "",
+                                "handle": {
+                                    "className": "",
+                                    "style": ""
+                                },
+                                "shadow": {
+                                    "show": true,
+                                    "className": "",
+                                    "style": ""
+                                },
+                                "message": {
+                                    "show": "auto",
+                                    "className": "",
+                                    "topClassName": "",
+                                    "bottomClassName": "",
+                                    "leftClassName": "",
+                                    "rightClassName": "",
+                                    "style": "",
+                                    "lowSwitch": 75,
+                                    "highSwitch": 75
+                                }
+                            },
+                            "dial": {
+                                "show": "drag",
+                                "invertDrag": false,
+                                "className": "",
+                                "message": {
+                                    "className": ""
+                                },
+                                "style": "",
+                                "pixelStep": 4,
+                                "size": 2
+                            }
+                        },
+                        "precalc": {
+                            "javascriptOnOrientationChange": ""
+                        }
+                    },
+                    "precalc": {
+                        "controlHTMLInPanelCard": "in panel card",
+                        "javascript_listViewData": "{dialog.object}._listViewData['LIST1'] = [[dialog.listViewData.LIST1]]; ",
+                        "javascript_listViewSettings": "{dialog.object}._listViewSettings['LIST1'] = [[dialog.listViewSettings.LIST1]]; ",
+                        "javascript_listview": "{dialog.object}._controls['LIST1'] =  { type: 'list',  data: {dialog.object}._listViewData['LIST1'],  settings: {dialog.object}._listViewSettings['LIST1'] }",
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "displayAsSlider": false,
+                    "datePicker": {
+                        "display": false,
+                        "displayTimePicker": false
+                    },
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 4in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.LIST1\" for=\"{grid.componentname}.V.R{grid.rownumber}.LIST1\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"display:block;\">LIST1</label>\n<!--LblE-->\n\t<!--FldS--><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.LIST1\" name=\"V.R{grid.rownumber}.LIST1\" /><!--JSControlEnd-->\n<div  class=\"[theme:listBox.base.className|{dialog.style}List]\"   style=\"padding:0px; \"  >\n\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.LIST1.CONTROL\"  class=\"{grid.componentName}_LIST1\" style=\"overflow: auto; width: 100%; height: 3in; \"></div>\n</div>\n<!--FldE-->\n</div>",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'LIST1': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: ''  }\n"
+                },
+                "crc": "4294945784"
+            },
+            {
+                "controltype": "layout_directive_PanelCardEnd",
+                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=70a907fd-39bd-4573-9eb0-f979793cd49c}{I:'vertLineCap'} [Panel Card End: PANELCARD_1]",
+                "displayODFlat": "{Data=70a907fd-39bd-4573-9eb0-f979793cd49c}{I:'vertlinecap'} [Panel Card End]",
+                "idInternal": "70a907fd-39bd-4573-9eb0-f979793cd49c",
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 2,
+                "parentContainer": 1,
+                "displayOD": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=70a907fd-39bd-4573-9eb0-f979793cd49c}{I:'vertlinecap'} [Panel Card End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=70a907fd-39bd-4573-9eb0-f979793cd49c}{I:'vertLineCap'} [Panel Card End: PANELCARD_1]",
+                "indentTree": 1
+            },
+            {
+                "controltype": "layout_directive_PanelCardBegin",
+                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=13925fc7-6c49-4aea-9e40-20e87a290d67}{I:'$$web.panel.card'} [Panel Card: PANELCARD_2]",
+                "displayODFlat": "{Data=13925fc7-6c49-4aea-9e40-20e87a290d67}{I:'$$web.panel.card'} [Panel Card: PANELCARD_2]",
+                "displayOD": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=13925fc7-6c49-4aea-9e40-20e87a290d67}{I:'$$web.panel.card'} [Panel Card: PANELCARD_2]",
+                "displayODtree": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=13925fc7-6c49-4aea-9e40-20e87a290d67}{I:'$$web.panel.card'} [Panel Card: PANELCARD_2]",
+                "idInternal": "13925fc7-6c49-4aea-9e40-20e87a290d67",
+                "lastIndex": 10,
+                "parentContainer": 1,
+                "repeatingSectionParentId": -1,
+                "indentTree": 1,
+                "v": {
+                    "container": {
+                        "id": "PANELCARD_2"
+                    },
+                    "panelInstance": {
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelCard": {
+                        "allowBodyScrolling": true,
+                        "bodyScrolling": {
+                            "axis": "Both"
+                        },
+                        "pull": {
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        },
+                        "scrolling": {
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "type": "Default"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294925176"
+            },
+            {
+                "controltype": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=9143e2c0-a3f4-447e-aecc-5905de0346ae}{I:'$$control.text'} [panel2] �",
+                "displayODFlat": "{Data=9143e2c0-a3f4-447e-aecc-5905de0346ae}{I:'$$control.text'} [panel2]",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=9143e2c0-a3f4-447e-aecc-5905de0346ae}{I:'$$control.text'} [panel2]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=9143e2c0-a3f4-447e-aecc-5905de0346ae}{I:'$$control.text'} [panel2] �",
+                "idInternal": "9143e2c0-a3f4-447e-aecc-5905de0346ae",
+                "parentContainer": 7,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "repeatingSectionParentId": -1,
+                "indentTree": 2,
+                "v": {
+                    "controlType": "Label",
+                    "variableName": "panel2",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "textboxSubTheme": "",
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "panel2",
+                    "class": "<Default>",
+                    "breakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "Above",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "getFunction": "",
+                    "setFunction": "",
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        },
+                        "ink": {
+                            "hasbackgroundimage": false,
+                            "backgroundimage": "",
+                            "inkunits": 1
+                        }
+                    },
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.PANEL2\" for=\"{grid.componentname}.V.R{grid.rownumber}.PANEL2\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"display:block;\">panel2</label>\n<!--LblE-->\n\t<!--FldS--><span\tid=\"{grid.componentname}.V.R{grid.rownumber}.PANEL2\" class=\"[class.dialogLabel]\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;; display:inline-block\" title=\"\"    ></span>\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'PANEL2': {info: {controlType: 'Label'}, hiddenVal: false, type: 'label,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                },
+                "crc": "4294940983"
+            },
+            {
+                "controltype": "layout_directive_button",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=0833ff7c-f580-433c-b511-37ba9bd2a559}{I:'$$control.button'} [Button] �",
+                "displayODFlat": "{Data=0833ff7c-f580-433c-b511-37ba9bd2a559}{I:'$$control.button'} [Button]",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=0833ff7c-f580-433c-b511-37ba9bd2a559}{I:'$$control.button'} [Button]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=0833ff7c-f580-433c-b511-37ba9bd2a559}{I:'$$control.button'} [Button] �",
+                "idInternal": "0833ff7c-f580-433c-b511-37ba9bd2a559",
+                "parentContainer": 7,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "repeatingSectionParentId": -1,
+                "indentTree": 2,
+                "v": {
+                    "buttonText": "Button",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "BUTTON_2",
+                    "advancedButtonStyling": true,
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "advancedButton": {
+                        "subTheme": "",
+                        "buttonClass": "",
+                        "buttonClassDisabled": "",
+                        "buttonClassHover": "",
+                        "buttonClassPressed": "",
+                        "buttonInlineStyle": "",
+                        "buttonstyle": "Text only",
+                        "disabledImageName": "",
+                        "hoverImageName": "",
+                        "displayDropdownIconOnButton": false,
+                        "displayAsSplitButton": false,
+                        "hyperlinkClass": "[class.gridHyperlinkButton]",
+                        "hyperlinkImagePosition": "None",
+                        "hyperlinkInlineStyle": "",
+                        "imageClass": "",
+                        "imageInlineStyle": "",
+                        "imageName": "",
+                        "pressedImageName": "",
+                        "textClass": "",
+                        "textInlineStyle": "",
+                        "type": "Button"
+                    },
+                    "securityGroups": "",
+                    "showHideExpn": "",
+                    "clientSideconditionalStyle": "",
+                    "CalcExpression": "",
+                    "EnableExpression": "",
+                    "ShowExpression": "",
+                    "precalc": {
+                        "javascriptClientSideWatches": "",
+                        "javascriptAbstractSetupCode": "",
+                        "javascriptAdvancedButton": "",
+                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['BUTTON_2'] = new A5.Button({\n\tlayout: 'text',\n\tstyle: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',\n\thtml: 'Button',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
+                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['BUTTON_2'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.BUTTON_2');"
+                    },
+                    "javascript": {
+                        "onclick": ""
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_2\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294945026"
+            },
+            {
+                "controltype": "layout_directive_PanelCardEnd",
+                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=38aed79b-e859-42db-b90a-e73f89d7013d}{I:'vertLineCap'} [Panel Card End: PANELCARD_2]",
+                "displayODFlat": "{Data=38aed79b-e859-42db-b90a-e73f89d7013d}{I:'vertlinecap'} [Panel Card End]",
+                "idInternal": "38aed79b-e859-42db-b90a-e73f89d7013d",
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 7,
+                "parentContainer": 1,
+                "displayOD": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=38aed79b-e859-42db-b90a-e73f89d7013d}{I:'vertlinecap'} [Panel Card End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=38aed79b-e859-42db-b90a-e73f89d7013d}{I:'vertLineCap'} [Panel Card End: PANELCARD_2]",
+                "indentTree": 1
+            },
+            {
+                "controltype": "layout_directive_PanelCardBegin",
+                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=e7c46840-286c-4cf5-a6e6-a1f2d1355a9e}{I:'$$web.panel.card'} [Panel Card: PANELCARD_3]",
+                "displayODFlat": "{Data=e7c46840-286c-4cf5-a6e6-a1f2d1355a9e}{I:'$$web.panel.card'} [Panel Card: PANELCARD_3]",
+                "displayOD": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=e7c46840-286c-4cf5-a6e6-a1f2d1355a9e}{I:'$$web.panel.card'} [Panel Card: PANELCARD_3]",
+                "displayODtree": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=e7c46840-286c-4cf5-a6e6-a1f2d1355a9e}{I:'$$web.panel.card'} [Panel Card: PANELCARD_3]",
+                "idInternal": "e7c46840-286c-4cf5-a6e6-a1f2d1355a9e",
+                "lastIndex": 13,
+                "parentContainer": 1,
+                "repeatingSectionParentId": -1,
+                "indentTree": 1,
+                "v": {
+                    "container": {
+                        "id": "PANELCARD_3"
+                    },
+                    "panelInstance": {
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelCard": {
+                        "allowBodyScrolling": true,
+                        "bodyScrolling": {
+                            "axis": "Both"
+                        },
+                        "pull": {
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        },
+                        "scrolling": {
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "type": "Default"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294911688"
+            },
+            {
+                "controltype": "layout_directive_button",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=76a6ccb4-5f9b-4f14-95c4-e8e663be1d93}{I:'$$control.button'} [Button] �",
+                "displayODFlat": "{Data=76a6ccb4-5f9b-4f14-95c4-e8e663be1d93}{I:'$$control.button'} [Button]",
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=76a6ccb4-5f9b-4f14-95c4-e8e663be1d93}{I:'$$control.button'} [Button]",
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=76a6ccb4-5f9b-4f14-95c4-e8e663be1d93}{I:'$$control.button'} [Button] �",
+                "idInternal": "76a6ccb4-5f9b-4f14-95c4-e8e663be1d93",
+                "parentContainer": 11,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "repeatingSectionParentId": -1,
+                "indentTree": 2,
+                "v": {
+                    "buttonText": "Button",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "BUTTON_3",
+                    "advancedButtonStyling": true,
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "advancedButton": {
+                        "subTheme": "",
+                        "buttonClass": "",
+                        "buttonClassDisabled": "",
+                        "buttonClassHover": "",
+                        "buttonClassPressed": "",
+                        "buttonInlineStyle": "",
+                        "buttonstyle": "Text only",
+                        "disabledImageName": "",
+                        "hoverImageName": "",
+                        "displayDropdownIconOnButton": false,
+                        "displayAsSplitButton": false,
+                        "hyperlinkClass": "[class.gridHyperlinkButton]",
+                        "hyperlinkImagePosition": "None",
+                        "hyperlinkInlineStyle": "",
+                        "imageClass": "",
+                        "imageInlineStyle": "",
+                        "imageName": "",
+                        "pressedImageName": "",
+                        "textClass": "",
+                        "textInlineStyle": "",
+                        "type": "Button"
+                    },
+                    "securityGroups": "",
+                    "showHideExpn": "",
+                    "clientSideconditionalStyle": "",
+                    "CalcExpression": "",
+                    "EnableExpression": "",
+                    "ShowExpression": "",
+                    "precalc": {
+                        "javascriptClientSideWatches": "",
+                        "javascriptAbstractSetupCode": "",
+                        "javascriptAdvancedButton": "",
+                        "javascriptAdvancedButton_control": "{dialog.object}._buttons['BUTTON_3'] = new A5.Button({\n\tlayout: 'text',\n\tstyle: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',\n\thtml: 'Button',\n\tonClick: function() { \n\n},\n\ttheme: '{grid.style}'\n});",
+                        "javascriptAdvancedButton_bind": "{dialog.object}._buttons['BUTTON_3'].bind('{DIALOG.COMPONENTNAME}.V.R{DIALOG.ROWNUMBER}.BUTTON_3');"
+                    },
+                    "javascript": {
+                        "onclick": ""
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_3\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294920971"
+            },
+            {
+                "controltype": "layout_directive_PanelCardEnd",
+                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=79df1d13-f25b-48ad-92fe-cc4e17edb736}{I:'vertLineCap'} [Panel Card End: PANELCARD_3]",
+                "displayODFlat": "{Data=79df1d13-f25b-48ad-92fe-cc4e17edb736}{I:'vertlinecap'} [Panel Card End]",
+                "idInternal": "79df1d13-f25b-48ad-92fe-cc4e17edb736",
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 11,
+                "parentContainer": 1,
+                "displayOD": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=79df1d13-f25b-48ad-92fe-cc4e17edb736}{I:'vertlinecap'} [Panel Card End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertLine'}{Data=79df1d13-f25b-48ad-92fe-cc4e17edb736}{I:'vertLineCap'} [Panel Card End: PANELCARD_3]",
+                "indentTree": 1
+            },
+            {
+                "controltype": "layout_directive_PanelNavigatorEnd",
+                "display": "{C=#51+111+61,White}{B=White,#51+111+61}{F=+B}{Data=e924ff79-40c2-44f9-8226-97bb84c68b11}{I:'vertLineCap'} [Panel Navigator End: PANELNAVIGATOR_1]",
+                "displayODFlat": "{Data=e924ff79-40c2-44f9-8226-97bb84c68b11}{I:'vertlinecap'} [Panel Navigator End]",
+                "idInternal": "e924ff79-40c2-44f9-8226-97bb84c68b11",
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 1,
+                "parentContainer": -1,
+                "displayOD": "{C=#51+111+61,White}{B=White,#51+111+61}{F=+B}{Data=e924ff79-40c2-44f9-8226-97bb84c68b11}{I:'vertlinecap'} [Panel Navigator End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#51+111+61,White}{B=White,#51+111+61}{F=+B}{Data=e924ff79-40c2-44f9-8226-97bb84c68b11}{I:'vertLineCap'} [Panel Navigator End: PANELNAVIGATOR_1]",
+                "indentTree": 0
+            }
+        ],
+        "_style_versionNumber": 4,
+        "_style_hasSassOverrides": true,
+        "style_type": "Alpha Five",
+        "resolveAbstractClassNames": true,
+        "builderVersionNumber": 1,
+        "overrideStyleName": "Default",
+        "useCompactTheme": false,
+        "FontSize": "Medium",
+        "A5ContainerClassPadding": "0px",
+        "A5ContainerClassPaddingForContainerWidthMode": "4px",
+        "controlflowdirection": "ltr",
+        "SVGLinkedFiles": "",
+        "localsvg": "",
+        "createAppCacheVersion": false,
+        "createAppCacheVersionC": "No",
+        "appcache": {
+            "pageName": "<Default>",
+            "pageTitle": "",
+            "hasHomeScreenIcons": false,
+            "homeScreenIconName": "",
+            "icons": {
+                "precomposed": false
+            },
+            "pageHeadSection": ""
+        },
+        "layoutType": "ContainerWidth",
+        "previewMode": "Default",
+        "useDragScrolling": "Auto",
+        "pageTitle": "UX",
+        "waitMsg": {
+            "message": {
+                "text": "Wait...",
+                "waitIcon": "css/A5System/Images/wait.gif"
+            },
+            "cssAnimation": {
+                "size": "32"
+            }
+        },
+        "globalSettings": {
+            "labelWidth": "1in"
+        },
+        "serverSideEvents": {
+            "canAjaxCallback": "",
+            "afterAjaxCallback": ""
+        },
+        "onTimerEventInterval": 60,
+        "securityDeniedAction": "Redirect to login page",
+        "clientSideEvents": {
+            "onAjaxCallbackFailed": "",
+            "onAjaxCallbackNotAvailable": "",
+            "onAjaxCallbackNotAllowed": "",
+            "onServerSideEventHandlerError": "",
+            "onFieldValidationError": "",
+            "beforePrepare": "",
+            "afterPrepare": "",
+            "afterValidate": "",
+            "onTabPaneChanged": "",
+            "beforeRptSectionRowPrepare": "",
+            "afterRptSectionRowPrepare": "",
+            "canRptSectionRowAdd": "",
+            "afterRptSectionRowAdd": "",
+            "canRptSectionRowDelete": "",
+            "afterRptSectionRowDelete": "",
+            "onStateChange": "",
+            "onDataStateChange": "",
+            "onControlFocus": "",
+            "onRptSectionFocus": "",
+            "onRptSectionRowChange": "",
+            "canResetForm": "",
+            "afterResetForm": "",
+            "canRecordNavigate": "",
+            "afterRecordNavigate": "",
+            "onSynchronizeDialog": "",
+            "afterPopulateFromTable": "",
+            "onRenderComplete": "",
+            "onAndroidBackButton": "",
+            "onPanelActivate": "",
+            "afterSaveToRepository": "",
+            "afterLoadFromRepository": "",
+            "afterGoogleVisualization": "",
+            "canDeleteParentRecord": "",
+            "afterDeleteParentRecord": "",
+            "onOrientationChange": "",
+            "onKeyboard": "",
+            "onCordovaReady": "",
+            "onPhoneGapReady": "",
+            "onImageError": "",
+            "onSignatureCaptureToggle": "",
+            "onSignatureCaptureAccept": "",
+            "onTimer": "",
+            "beforeOnTimer": "",
+            "canLogin": "",
+            "afterLogin": "",
+            "afterFailedLogin": "",
+            "canLogout": "",
+            "afterLogout": "",
+            "onSessionTimeoutWarning": "",
+            "onServerSideListSummaryCompute": "",
+            "beforeHTMLReportExport": "",
+            "onConnectionChange": "",
+            "appCache_cached": "",
+            "appCache_checking": "",
+            "appCache_downloading": "",
+            "appCache_error": "",
+            "appCache_noupdate": "",
+            "appCache_obsolete": "",
+            "appCache_progress": "",
+            "appCache_updateready": "",
+            "onControlBlur": "",
+            "onControlChange": "",
+            "onBeforePersistControlValuesToLocalStorage": "",
+            "onPersistControlValuesToLocalStorage": "",
+            "onRestoreVariablesFromLocalStorage": "",
+            "onRestoreComponentStateFromLocalStorage": "",
+            "localStorageEncryption": "",
+            "localStorageDecryption": "",
+            "securityNotAuthenticated": "",
+            "securityPermissionDenied": "",
+            "webSocketOnMessage": "",
+            "webSocketServerClose": "",
+            "webSocketSendMessageFail": "",
+            "afterGoogleAddressSelect": "",
+            "onBeforeClientSideDataCacheRead": "",
+            "afterClientSideDataCacheAjaxCallback": "",
+            "_canAjaxCallback": "",
+            "__afterAjaxCallbackComplete": ""
+        },
+        "onlyValidateChangedFields": true,
+        "edit": {
+            "field_error_style": {
+                "type": "Block",
+                "showWarning": true,
+                "icon": "<Specified by Style>",
+                "controlContainer_classname": ""
+            },
+            "row_errors_window_title": "Error",
+            "row_errors_window_style": "color: red; width: 6in; height: 2in;",
+            "fieldValidationErrorMessage": "Form has errors."
+        },
+        "submitDialogIfHasClientSideValidationErrors": true,
+        "activeLanguage": "<Default>",
+        "datePicker": {
+            "dayNames": "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+            "monthNames": "January,February,March,April,May,June,July,August,September,October,November,December",
+            "firstDayOfWeek": 1,
+            "todayButtonText": "Today",
+            "closeButtonText": "Close"
+        },
+        "clientSideDateFormat": "MM/dd/yyyy",
+        "clientsideNumberFormatDecimal": "period",
+        "clientsideNumberFormatThousands": "comma",
+        "fontScalingOption": "All",
+        "helpTableType": "DBF",
+        "fieldHelpWindowStyle": "modal-resizeable",
+        "customization": {
+            "resetFormMessage": "Are you sure you want to reset the form?",
+            "resetFormTitle": "Warning",
+            "resetFormIcon": "<Specified by Style>",
+            "resetFormYesButton": "Yes",
+            "resetFormNoButton": "No",
+            "windowTitleDirection": "ltr",
+            "dirtyWarning": "You must first save your changes or cancel changes by clicking the Reset button.",
+            "dirtyWarningTitle": "Notice",
+            "dirtyWarningIcon": "<Specified by Style>",
+            "deleteRecordWarningTitle": "Delete Record",
+            "deleteRecordWarningMessage": "Are you sure you want to delete this record?"
+        },
+        "dataBinding": {
+            "computeDataBindingCodeAtDesignTimePrompt": "Prompt",
+            "autoRefreshSchemaOnLoad": true,
+            "autoRefreshPromptFirst": "Prompt"
+        },
+        "flagShowCommentsInTree": true,
+        "treeCommentOffset": "6",
+        "showLineNumbersInControlsList": false,
+        "renderUXLocation": {
+            "type": "window",
+            "sizeToElement": true
+        },
+        "saveFileType": "Formatted JSON",
+        "keyboardShortcutsJSON": "",
+        "checkSessionEvery": 1,
+        "warningIntervalBeforeExpiration": 1,
+        "sessionTimeOutWarningMessage": "Your session will expire in {secondsToSessionEnd} seconds. Click the button to extend your session.",
+        "sessionExtendSessionButtonLabel": "Extend Session",
+        "sessionTimeoutWarningDialogTitle": "Warning",
+        "sessionHasExpiredMessage": "Your session has expired.",
+        "sessionHasExpiredButtonLabel": "OK",
+        "sessionHasExpiredAction": "Nothing",
+        "sessionHasExpiredRedirectPage": "<self>",
+        "sessionHasExpiredDialogTitle": "Notice",
+        "sessionHasExpiredOKButtonJavascript": "<ReloadThisPage>",
+        "login": {
+            "errorMessageStyle": "color: red;",
+            "logoutDoesFullPageReload": true
+        },
+        "applyResponsiveDesignSettings": true,
+        "responseDesignRulesMode": "FirstTrue",
+        "localStorage": {
+            "namespace": "<Default>",
+            "variablesToNotPersist": "",
+            "__version": 1,
+            "workingPreviewTestingMode": "Browser"
+        },
+        "preRenderComputeWhen": "Every time component is saved",
+        "preRenderWarningMessageShow": true,
+        "selected": "8f549c81-a1ca-4d4e-9575-39f79c54f3ad\n",
+        "designPaneIndex": 1,
+        "masterPaneC": "controls",
+        "serverSideEventIndex": 1,
+        "clientSideEventIndex": 1,
+        "clientSideEventIndexC": "1",
+        "lastControlSelected": "insert_dialog_label",
+        "__WPhostName": "Internet Explorer",
+        "embeddedMode": false,
+        "repeatingSectionsAreDirty": true,
+        "lastbutton": "OK",
+        "containerSubTypeNew": "",
+        "containerSubTypeOld": "",
+        "flagDropdownCascadingChanged": false,
+        "securityEnabled": false,
+        "showHideIsUsed": false,
+        "precalc": {
+            "customControl": {
+                "js_beforePrepare": "",
+                "js_afterRender": "",
+                "customControl_xbasicFunctions": ""
+            },
+            "getSetFunctions": {
+                "js_beforePrepare": ""
+            },
+            "injectibleHTML": "",
+            "containerWindowHTML": "",
+            "repeatingsectionInfoJs": "",
+            "framesInfoJS": "{dialog.object}.framesInfo = {\n\n};\n",
+            "jsActionJavascriptGlobalFunctions": "",
+            "xbActionJavascriptGlobalFunctions": "",
+            "javascriptSetupForGridLookups": "{\n}",
+            "javascript": {
+                "showWaitMessage": "",
+                "hideWaitMessage": "",
+                "embeddedUXComponents": ""
+            },
+            "fileUpload_controlInfo": "",
+            "javascript_cascadingDropdowns": "{dialog.object}._cascadingControls = [];\n{dialog.object}._cascadingControlsChildren = [];",
+            "template_html": "<!--div GLOBALERRORS-->\n<div class=\"errorTip\" style=\"margin-bottom: 2px; display: none; width: 8in; \" id=\"{dialog.componentname}.GLOBALERRORS\"></div>\n<!--End div GLOBALERRORS-->\n\n<div id=\"{dialog.componentname}.R1\">\n'xbasic\nv._dirty = .f.\n\n'xbasic\n\nv._dirty = .f.\n\n\n\n<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_1\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.PANEL1\" for=\"{grid.componentname}.V.R{grid.rownumber}.PANEL1\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"display:block;\">panel1</label>\n<!--LblE-->\n\t<!--FldS--><span\tid=\"{grid.componentname}.V.R{grid.rownumber}.PANEL1\" class=\"[class.dialogLabel]\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;; display:inline-block\" title=\"\"    ></span>\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n<div class=\"A5CWLayout\" style=\"width: 4in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.LIST1\" for=\"{grid.componentname}.V.R{grid.rownumber}.LIST1\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"display:block;\">LIST1</label>\n<!--LblE-->\n\t<!--FldS--><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.LIST1\" name=\"V.R{grid.rownumber}.LIST1\" /><!--JSControlEnd-->\n<div  class=\"[theme:listBox.base.className|{dialog.style}List]\"   style=\"padding:0px; \"  >\n\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.LIST1.CONTROL\"  class=\"{grid.componentName}_LIST1\" style=\"overflow: auto; width: 100%; height: 3in; \"></div>\n</div>\n<!--FldE-->\n</div>\n'xbasic\nv._dirty = .f.\n\n'xbasic\n\nv._dirty = .f.\n\n\n\n<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.PANEL2\" for=\"{grid.componentname}.V.R{grid.rownumber}.PANEL2\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"display:block;\">panel2</label>\n<!--LblE-->\n\t<!--FldS--><span\tid=\"{grid.componentname}.V.R{grid.rownumber}.PANEL2\" class=\"[class.dialogLabel]\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;; display:inline-block\" title=\"\"    ></span>\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_2\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n'xbasic\nv._dirty = .f.\n\n'xbasic\n\nv._dirty = .f.\n\n\n\n<div class=\"A5CWLayout\" style=\"width: \" >\n\t<button type=\"button\" id=\"{dialog.componentName}.V.R{dialog.rownumber}.BUTTON_3\"    ></button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n'xbasic\nv._dirty = .f.\n\n'xbasic\nv._dirty = .f.\n\n\n\n</div>\n<!--div DEBUGUPDATECOMMANDS-->\n<div class=\"\" style=\"display: none; \" id=\"{dialog.componentname}.DEBUGUPDATECOMMANDS\"></div>\n<!--End div DEBUGUPDATECOMMANDS-->\n",
+            "panelDisplayNames": "PANELCARD_1 : 'PANELCARD_1',PANELCARD_2 : 'PANELCARD_2',PANELCARD_3 : 'PANELCARD_3',PANELNAVIGATOR_1 : 'PANELNAVIGATOR_1'",
+            "controlJavascript": "",
+            "controlJavascriptRepeatingSections": "",
+            "template_js": "",
+            "sessionVarsInShowHideExpns": "",
+            "flagHasShowTimer": false,
+            "themeSearchReplaceString": "[theme:listBox.base.className|{dialog.style}List]=*if_error(p.listBox.base.className,\"{dialog.style}List\")\n",
+            "flagHasHTML5ImageCapture": false,
+            "flagUsesCordova": false,
+            "flagUseAmazonS3FileUpload": false,
+            "flagUseStripe": false,
+            "usesSystemSVG": false,
+            "flagUseAudioPlayer": false,
+            "flagUseInk": false,
+            "flagUsesAudioLibrary": false,
+            "flagUsesPhoneGapFileSystemFunctions": false,
+            "flagUsesGetAccurateLocation": false,
+            "editorSet_for_editor": "{dialog.object}._EDITOR_EDITORSET = {};",
+            "otherJS": "",
+            "javascript_layoutRules": "",
+            "javascript_controlNesting": "{\n\n}",
+            "appcacheEvents": ""
+        },
+        "FieldsInRepeatingSectionsDeletedBySecurity": "",
+        "repeatingSectionsToRecalc": "",
+        "dialogObject": "if(typeof {dialog.componentName}_DlgObj == 'object') {dialog.componentName}_DlgObj._destroy();\nvar {dialog.componentName}_DlgObj = new A5.DialogComponentHelper('{dialog.componentName}',{\n\tajaxURL: '{dialog.ajaxUrl}',\n\t_embeddedMode: {dialog.embeddedMode},\n\t_livePreviewInBuilder: {livePreviewInBuilder},\n\tcomponentGUID: '3aa790a7-dc87-41e1-bc64-28f95004ba9e',\n\tcolumnInfo: {columninfo},\n\toriginalValues: {dialog.jsOriginalValues},\n\tdefaultValues: {dialog.jsDefaultValues},\n\tdatePickerMonthNames: [{datePickerMonthNames}],\n\tdatePickerDayNames: [{datePickerDayNames}],\n\tdatePickerTodayButton: '{datePickerTodayButton}',\n\tdatePickerCloseButton: '{datePickerCloseButton}',\n\tdatePickerFirstDayOfWeek: {datePickerFirstDayOfWeek},\n\tresetFormMessage: '{resetFormMessage}',\n\tresetFormTitle: '{resetFormTitle}',\n\tresetFormIcon: '{resetFormIcon}',\n\tdirtyFormMessage: '{dirtyFormMessage}',\n\tdirtyFormTitle: '{dirtyFormTitle}',\n\tdirtyFormIcon: '{dirtyFormIcon}',\n\tdeleteRecordDialogTitle: '{deleteRecordTitle}',\n\tdeleteRecordDialogMessage: '{deleteRecordMessage}',\t\n\tssDateFormat: '{serverSideDateFormat}',\n\tstyleName: '{dialog.style}',\n\t_fieldHelpers_DIALOG2: [],\n\tparentComponentAlias: '{parentComponentAlias}',\n\tsubmitIfHasClientSideErrors: true, \n\trowErrors: {\n\t\t\t\tshowMessageBox: false,\n\t\t\t\tmessageBoxTitle: 'Error',\n\t\t\t\tstyle: 'color: red; width: 6in; height: 2in;'\n\t\t},\n\tfieldErrors: {\n\t\ttype: 'block', \n\t\tclassName: 'errorText',\n\t\tinputClassName: '[class.gridInputError]',\n\t\tedit: { \n\t\t\tcontainer: { className: '[class.gridInputContainerError]'}\n\t\t},\n\t\ticon: '{images.dialog.editError}',\n\t\tglobal: {\n\t\t\tcontId: '{dialog.componentname}.GLOBALERRORS',\n\t\t\thoverClassName: 'errorTextHighlight',\n\t\t\thoverInputClassName: 'errorInputHighlight'\n\t\t}\n\t}\n\n\t});\n\n",
+        "xbasiccode": {
+            "blankInitialValueIfVarNotFound": "",
+            "setValueProperties": "value.PANEL1=\"\"\nvalue.LIST1=\"\"\nvalue.PANEL2=\"\"",
+            "setValueProperties2": "value.PANEL1=\"\"\nvalue.LIST1=\"\"\nvalue.PANEL2=\"\"",
+            "setValueUnformattedProperties": "value.PANEL1=convert_type(\"\",\"C\")\nvalue.LIST1=convert_type(\"\",\"\")\nvalue.PANEL2=convert_type(\"\",\"C\")\n"
+        },
+        "componentType": "Dialog2",
+        "version": 1,
+        "recNav": {
+            "slider": {
+                "showSlider": false
+            }
+        },
+        "Livepreview_permissions": "",
+        "livePreview_permissions_friendly": "",
+        "toolBox_value": "",
+        "addinBuildNumber": "4825",
+        "addinBuildNumberHighestUsed": "4825",
+        "alphaFiveBuildNumber": "12",
+        "openedFromTemplate": false,
+        "builtWithVersionNumer": 1
+    }
+}
